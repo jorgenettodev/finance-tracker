@@ -46,3 +46,4 @@
 - [Subir um repositorio local para um repo remoto](https://www.youtube.com/watch?v=bvGjo1iViBw)
 - [Claude - Criando aplicacao com Nest, Prisma, Docker](https://claude.site/artifacts/b1aa5cee-6919-4473-a97f-233053b66e7c)
 - [Using swagger with NestJS](https://medium.com/@andremazmol/using-swagger-with-nestjs-b94dae253613#:~:text=Open%20your%20main.ts%20%28or%20the%20file%20where%20you,%27.%2Fapp.module%27%3B%20import%20%7B%20DocumentBuilder%2C%20SwaggerModule%20%7D%20from%20%27%40nestjs%2Fswagger%27%3B)
+- [Prisma Migrate](https://www.prisma.io/docs/orm/prisma-migrate/getting-started)
