@@ -37,7 +37,7 @@ decorators para checar se o `nome e email` são válidos
     Exemplo
 
     DTO
-    
+
     CreateUserDTO
         name: string
         email: string    
@@ -47,8 +47,10 @@ decorators para checar se o `nome e email` são válidos
         createUser(createUserDto: CreateUserDTO)
             name = createUserDTO.name
             email = createUserDTO.email
-    
-    
+
+## Entity
+    Criar um User entity
+    Esta entidade será uma tabela no nosso banco de dados. Cada propriedade será uma coluna.
 
 
 
@@ -106,5 +108,6 @@ decorators para checar se o `nome e email` são válidos
 - [Claude - Criando aplicacao com Nest, Prisma, Docker](https://claude.site/artifacts/b1aa5cee-6919-4473-a97f-233053b66e7c)
 - [Docker - compose](https://github.com/docker/compose)
 - [Using swagger with NestJS](https://medium.com/@andremazmol/using-swagger-with-nestjs-b94dae253613#:~:text=Open%20your%20main.ts%20%28or%20the%20file%20where%20you,%27.%2Fapp.module%27%3B%20import%20%7B%20DocumentBuilder%2C%20SwaggerModule%20%7D%20from%20%27%40nestjs%2Fswagger%27%3B)
+- [Como instalar o Swagger no NestJS](https://www.youtube.com/watch?v=2n3xS89TJMI&list=PLlaDAvA2MhR2jb8zavu6I-w1BA878aHcB&t=1786s)
 - [Prisma Migrate](https://www.prisma.io/docs/orm/prisma-migrate/getting-started)
 - [NestJS Crash Crouse](https://www.youtube.com/watch?v=2n3xS89TJMI&list=PLlaDAvA2MhR2jb8zavu6I-w1BA878aHcB&index=1&ab_channel=MariusEspejo)

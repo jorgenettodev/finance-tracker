@@ -7,13 +7,14 @@ async function bootstrap() {
 
   // Swagger configuration
   const config = new DocumentBuilder()
-    .setTitle('minhaApi')
+    .setTitle('api')
     .setDescription('Finance Tracker API')
     .setVersion('1.0')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('minhaApi', app, document);
+
+  SwaggerModule.setup('api', app, document);
 
   await app.listen(process.env.PORT, async () => {
     // const url = await app.getUrl();
